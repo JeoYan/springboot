@@ -30,7 +30,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)  
 @Documented  
 public @interface Log {
-
+	public String aa();
     /** 要执行的操作类型  比如：增加操作 **/  
     public String operationType() default "";  
      
